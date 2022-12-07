@@ -1,0 +1,24 @@
+* {
+  margin-left: 10px;
+}
+.navbar {
+  /* background-color: black; */
+  /* margin: 10px; */
+}
+
+.navbar a {
+  margin: 20px;
+  text-decoration: none;
+}
+
+img {
+  width: 20%;
+  height: 20%;
+
+  /* margin: 10px; */
+}
+
+button {
+  margin: 10px;
+  width: 100px;
+}
