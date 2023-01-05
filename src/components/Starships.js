@@ -1,10 +1,8 @@
 import {useState} from 'react';
-// import axios from 'axios'
 
 import fetchFunction from '../services/sw-service.js';
 
 const Starships = () => {
-  // URL + SRC
   const STARSHIPS_URL = 'https://www.swapi.tech/api/starships';
   const STARSHIPS_SRC = 'https://starwars-visualguide.com/assets/img/starships';
 

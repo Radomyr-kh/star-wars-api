@@ -3,7 +3,6 @@ import {useState} from 'react';
 import fetchFunction from '../services/sw-service.js';
 
 const People = () => {
-  // URL + SRC
   const PEOPLE_URL = 'https://www.swapi.tech/api/people';
   const PEOPLE_SRC = 'https://starwars-visualguide.com/assets/img/characters';
 
@@ -16,7 +15,7 @@ const People = () => {
   const [eyeColor, setEyeColor] = useState();
 
   async function handleClick() {
-    setNext(next + 1);
+    setNext(() => next + 1);
     const fetchResponse = await fetchFunction(PEOPLE_URL, next);
     const axiousProps = fetchResponse.data.result.properties;
 
