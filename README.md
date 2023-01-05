@@ -28,7 +28,7 @@ Their data cards will have at least 3 data fields.
 
 At the top of the page, add a Header component. When you click on the corresponding header menu, only the required component is rendered. People is render by default
 
-###Requierements:
+### Requierements:
 
 - use axios library for ajax
 - take out work with ajax and data formatting into a separate class file and name it `/src/services/sw-service.js`
